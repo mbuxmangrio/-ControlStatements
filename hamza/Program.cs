@@ -122,37 +122,37 @@ namespace hamza
             //nested if else statement//
 
 
-            
-            var animal = "turtle";
-            int speed = Convert.ToInt32(Console.ReadLine());
-            if ((animal == "horse" || animal == "donkey") && (speed > 40))
-            {
-                Console.WriteLine("Run fast");
-            }
-            else if ((animal == "shark" || animal == "dolphin") && (speed > 45))
-            {
-                Console.WriteLine("Swim fast");
-            }
-            else if (animal == "turtle" && (speed > 30))
-            {
-                Console.WriteLine("Slow move");
-            }
-                 else if (animal == "tiger" && (speed >= 70))
-            {
-                Console.WriteLine("Run very fast");
-            }
 
-//    var age = Convert.ToInt32(Console.ReadLine());
-//            if (age<=5)
-//            {
-//                Console.WriteLine("He should be admitted in a school");
-//            }
-//            else if (age <= 6)
-//{
-//    Console.WriteLine("He should be in one class");
-//}
-//else if (age <= 10)
-//            //{
+            //var animal = "turtle";
+            //int speed = Convert.ToInt32(Console.ReadLine());
+            //if ((animal == "horse" || animal == "donkey") && (speed > 40))
+            //{
+            //    Console.WriteLine("Run fast");
+            //}
+            //else if ((animal == "shark" || animal == "dolphin") && (speed > 45))
+            //{
+            //    Console.WriteLine("Swim fast");
+            //}
+            //else if (animal == "turtle" && (speed > 30))
+            //{
+            //    Console.WriteLine("Slow move");
+            //}
+            //     else if (animal == "tiger" && (speed >= 70))
+            //{
+            //    Console.WriteLine("Run very fast");
+            //}
+
+            //    var age = Convert.ToInt32(Console.ReadLine());
+            //            if (age<=5)
+            //            {
+            //                Console.WriteLine("He should be admitted in a school");
+            //            }
+            //            else if (age <= 6)
+            //{
+            //    Console.WriteLine("He should be in one class");
+            //}
+            //else if (age <= 10)
+            //            //{
             //    Console.WriteLine("He should be in class five");
             //}
             //else if(age<=11)
@@ -207,6 +207,38 @@ namespace hamza
             //}
 
 
+
+            //Find out names of four seasons on the basis of number of months:
+            var month =Console.ReadLine();
+                        
+            switch(month)
+            {
+                case "1":
+                case "2":
+                case "11":
+                case "12":
+                    Console.WriteLine("it is Winter");
+                    break;
+                case "5":
+                case "6":
+                case "7":
+                case "8":
+                    Console.WriteLine("it is Summer");
+                    break;
+                case "3":
+                case "4":
+                    Console.WriteLine("It is Spring");
+                    break;
+                case "9":
+                case "10":
+                    Console.WriteLine("it is Autumn");
+                    break;
+                default:
+                    Console.WriteLine("INVALID NUMBER Please enter number from 1 to 12");
+                    break;
+
+
+            }
 
 
 
